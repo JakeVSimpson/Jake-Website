@@ -1,0 +1,388 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  }
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#title {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+
+
+.big-text {
+  font-size: 8vh;
+}
+
+
+.medium-text {
+  font-size: 6vh;
+}
+
+.small-text {
+  font-size: 3.5vh;
+}
+
+body {
+  background-color: #000000;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  /* padding-bottom: 3rem!important; */
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  /* margin-bottom: 3rem!important; */
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: larger;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradient1 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+ h1 {
+  font-family: 'Exo', sans-serif;
+ }
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.nav-item .nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+  font-weight: 500; /* Corrected comment */
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background: linear-gradient(90deg, #1C3D58, #3C2C54);
+}
+
+.code-text {
+
+font-family: 'Fira Code', monospace;
+
+}
+ code {
+  color: #4a77d4;
+ }
+
+
+/* Fade in from the left */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.iss_background {
+  position: relative;
+}
+
+.iss_background::before {
+  content: "";
+  background-image: url('../images/international-space-station-against-starlight-2021-08-29-03-57-19-utc.jpg');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.12;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+.main_background {
+  position: relative;
+}
+
+.main_background::before {
+  content: "";
+  background-image: url('../tech_backgrounds/Main.png');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.15;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+.project_background {
+  position: relative;
+}
+
+.project_background::before {
+  content: "";
+  background-image: url('../project_backgrounds/dk\ \(27\).jpg');
+  opacity: 0.5;
+  display: block;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+
+.padding {
+padding-top: (spacer * 10);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: inherit;
+  opacity: 0.5;  /* Adjust this value between 0 and 1 for desired transparency */
+  z-index: -1;
+}
+
+.card {
+  position: relative;
+  min-height: 300px;  /* You can adjust this value as per requirement */
+}
+
+.special_font {
+  font-family: 'Fira Code', monospace;
+  color: white;
+}
+p {
+  color: white;
+}
+
+
+
+.vidfusion_background {
+  position: relative;
+}
+
+.vidfusion_background::before {
+  content: "";
+  background-image: url('../images/TLDR.png');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.2;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+.birthday_background {
+  position: relative;
+}
+
+.birthday_background::before {
+  content: "";
+  background-image: url('../images/Birthday_Tracker.png');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.1;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+.tldr_background {
+  position: relative;
+}
+
+.tldr_background::before {
+  content: "";
+  background-image: url('../images/sphere.jpg');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.1;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+.BTC_background {
+  position: relative;
+}
+
+.BTC_background::before {
+  content: "";
+  background-image: url('../images/BTC.png');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.25;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+.RPi_background {
+  position: relative;
+}
+
+.RPi_background::before {
+  content: "";
+  background-image: url('../images/RPi.png');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.1;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+.recode_background {
+  position: relative;
+}
+
+.recode_background::before {
+  content: "";
+  background-image: url('../images/Code.jpg');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.3;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+
+.jarvis_background {
+  position: relative;
+}
+
+.jarvis_background::before {
+  content: "";
+  background-image: url('../images/JARVIS.jpg');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  opacity: 0.3;
+  display: block;
+  position: fixed;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  z-index: -1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
