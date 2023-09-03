@@ -124,71 +124,6 @@
     
   </div>
 
-<div class="container px-4 py-5" id="custom-cards" data-aos="fade-down"  data-aos-once="True">
-    <h2 class="pb-2  border-bottom" >API Calls:</h2>
-    
-   <h4 class="special_font pt-2">response = requests.get("https://api.sunrise-sunset.org/json", params=parameters)</h4>
-    <h4 class="special_font pt-2"> response = requests.get(url="http://api.open-notify.org/iss-now.json")</h4>
-  
-    
-    
-  </div>
-
-
-  <div class="container px-4 py-5">
-    <h2 class="pb-2 border-bottom" data-aos="fade-up"  data-aos-once="True">ISS Tracker</h2>
-
-    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-      <div class="col d-flex flex-column align-items-start gap-2" data-aos="fade-right"  data-aos-once="True">
-        <h2 class="fw-bold text-body-emphasis">How it works?</h2>
-        <p class="text-body-secondary">The program fetches the current position of the ISS from the http://api.open-notify.org/iss-now.json endpoint and determines whether it's within 5-degrees latitude and 5-degrees longitude of a specified location. If the ISS is nearby the user will receive an email.
-
-          In addition, the program utilizes the https://api.sunrise-sunset.org/json API to determine the times for sunrise and sunset at the user's location.</p>
-        <a href="#" class="btn btn-primary btn-lg">Github</a>
-      </div>
-
-      <div class="col">
-        <div class="row row-cols-1 row-cols-sm-2 g-4">
-          <div class="col d-flex flex-column gap-2" data-aos="fade-down"  data-aos-once="True">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3" >
-                <img src="../svgs/api-svgrepo-com.svg" height="40px">
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">API Endpoint</h4>
-            <p class="text-body-secondary">An API endpoint is used to fetch the live position of the ISS.</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2" data-aos="fade-left"  data-aos-once="True">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
-                <img src="../svgs/clock-svgrepo-com.svg" height="40px">
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Python Time Module</h4>
-            <p class="text-body-secondary">The python time module is used to loop at appropriate time intervals.</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2" data-aos="fade-up"  data-aos-once="True">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
-                <img src="../svgs/python-svgrepo-com.svg" height="40px">
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">SMTP Library</h4>
-            <p class="text-body-secondary">The SMTP Library is used to notify the user when the ISS is close to their location.</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2" data-aos="fade-left"  data-aos-once="True">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
-             
-                <img src="../svgs/raspberry-pi-logo-svgrepo-com.svg" height="40px">
-              
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Raspberry Pi</h4>
-            <p class="text-body-secondary">The Python script runs on my Raspberry Pi 24/7.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
   <section class="footer1 container" data-aos="fade-down"  data-aos-once="True">
     <footer
       class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mb-3  border-top"
@@ -244,3 +179,4 @@
          </script>
 </body>
 </html>
+
